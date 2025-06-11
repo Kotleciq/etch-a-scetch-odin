@@ -1,0 +1,27 @@
+body{
+    align-items: center;
+}
+
+.container{
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+    height: 960px;
+}
+.row{
+    flex: 1;
+    display: flex;
+}
+.container:nth-of-type(even){
+    background-color: grey;
+}
+
+.box{
+    /* border: 1px rgb(175, 175, 175) solid; */
+    flex: 1;
+}
+
+.hovered{
+    background-color: rgba(41, 40, 40, 0.082);
+}
