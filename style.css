@@ -2,6 +2,26 @@ body{
     align-items: center;
 }
 
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main button{
+    font-size: 200%;
+    background-color: rgb(230, 5, 80);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#main input{
+    font-size: 150%;
+}
+
+
 .container{
     border: 1px black solid;
     display: flex;
@@ -23,5 +43,5 @@ body{
 }
 
 .hovered{
-    background-color: rgba(41, 40, 40, 0.082);
+    background-color: rgb(209, 26, 26);
 }
