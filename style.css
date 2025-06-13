@@ -1,5 +1,7 @@
+
 body{
     align-items: center;
+    
 }
 
 
@@ -38,6 +40,7 @@ body{
 }
 
 .box{
+    background-color: white;
     /* border: 1px rgb(175, 175, 175) solid; */
     flex: 1;
 }
